@@ -1,0 +1,9 @@
+$kind: http-request
+name: "{{base_url}}/api/auth/get-me"
+description: ""
+url: "{{base_url}}/api/auth/get-me"
+method: GET
+body:
+  type: json
+  content: ""
+order: 6000
